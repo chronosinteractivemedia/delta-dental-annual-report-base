@@ -1,0 +1,60 @@
+@import "sass-includes/index";
+@import "fonts";
+@import "normalize";
+@import "ui";
+@import "layout";
+
+html {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+* [tabindex] {
+  outline: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #FFF;
+  font-family: $font-primary;
+  font-size: 16px;
+  color: $black;
+  @include font-smooth();
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  &:first-child{margin-top: 0;}
+}
+
+p{
+  line-height: 150%;
+}
+h2{
+  font-size: 36px;
+  font-weight: 400;
+}
+h3{
+  font-size: 28px;
+  font-weight: 400;
+}
+
+
+ul{
+  li{
+    margin-bottom: 40px;
+    list-style: none;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 3px;
+      left: -25px;
+      width: 10px;
+      height: 10px;
+      background-color: $blue;
+    }
+  }
+}

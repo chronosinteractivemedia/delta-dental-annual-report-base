@@ -1,0 +1,176 @@
+extends ../page.pug
+block setup
+  - const pageName = 'Delta'
+block display
+  #smiles
+    +main-hero()
+  
+  #content-start.ui-container
+    .ui-row
+      .ui-col-6
+        p.ui-large-text.ui-text-gray Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum ut fugit rerum! Itaque, atque rerum labore debitis quidem exercitationem culpa quis ea cupiditate tempora nostrum! Illum, assumenda culpa sint voluptatibus <span class="ui-text-green">repudiandae fuga provident natus nostrum. Sed laudantium dolor hic vitae.</span>
+        br
+        p Today, we envision a world where everyone can achieve their best oral health. There isn’t one solution that will address all oral health inequities. Social determinants, such as race and ethnicity, income, geography and age, greatly impact a person’s smile. Our goal is to create accessible oral health care across a lifespan.
+        p We are deepening our understanding of oral health equity. By expanding our partnerships and collaborating with communities across the state, we intend to reach people who have been historically overlooked. We are helping to improve the oral health of all Coloradans.
+      .ui-col-6
+        +img-atr('images/placer.jpg', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nesciunt odit eius dignissimos labore, ab consectetur maxime consequatur asperiores fugiat, earum sunt deserunt libero! Minima?')
+  
+  .ui-container
+    h3.ui-text-green Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora doloribus porro adipisci quod quasi, itaque sint cum nisi dicta harum ab excepturi esse molestias, natus voluptates. Blanditiis deserunt enim dolore.
+  
+  .ui-container.ui-padding-top
+    .ui-row
+      .ui-col-8
+        +img-atr('images/placer.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae dolor nulla officiis! Voluptatum, ducimus distinctio?' )
+      .ui-col-4
+        +sandwich('green')
+          p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla aliquid doloribus debitis omnis quisquam ipsum asperiores similique, quo recusandae pariatur optio impedit cumque vel odio laudantium consequatur illo assumenda labore maxime error enim! Totam cupiditate et ab eos animi pariatur.
+          br
+          p.ui-text-green Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  
+  .ui-container.ui-padding-top
+    .ui-row
+      .ui-col-6
+        .ui-row
+          .ui-col-5
+            h2.ui-text-green Lorem, ipsum dolor
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, impedit?
+          .ui-col-7
+              +icon-block()
+      .ui-col-6
+        .ui-row
+          .ui-col-5
+            h2.ui-text-green Lorem ipsum dolor sit amet consectetur.
+            img.ui-img-fit(src="images/map.svg")
+          .ui-col-7
+            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quaerat pariatur voluptatibus voluptatem, adipisci minima quas, nemo modi doloribus aperiam sunt quis tenetur similique esse ea accusamus non! Sit magnam dolores consequatur, quasi voluptatum quo ad fuga. Sint assumenda at optio excepturi aspernatur. Architecto blanditiis ex dolorum eveniet numquam atque.
+            a.ui-button.ui-button--green.ui-margin-top
+              | Download a PDF 
+              +icon('download')
+
+  #initiative
+    +hero('images/hero-smiles.jpg', 'blue', 'ribbon', 'Initiative Highlights' )
+
+  .ui-container.ui-padding-top
+    .ui-row
+      .ui-col-7
+        .ui-row
+          .ui-col-6
+            h2.ui-text-blue Lorem ipsum dolor sit amet.
+            br
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere beatae quisquam molestiae.
+          .ui-col-6
+            ul
+              li Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eum!
+              li Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="ui-text-blue">Beatae, debitis quos? Aperiam.</a>
+              li Lorem ipsum dolor <a href="#" class="ui-text-blue">sit amet consectetur adipisicing elit</a>. Amet suscipit odit sequi voluptates expedita! Vitae saepe consequuntur numquam tempore iure.
+      .ui-col-5
+        +graphs()
+    
+  .ui-container
+    +sandwich('blue')
+      .ui-row
+        .ui-col-8
+          p.ui-large-text.ui-text-blue Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eveniet voluptas autem rem velit? Blanditiis cupiditate nemo earum eligendi culpa.
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea voluptatem mollitia quod vel ipsum deserunt corporis recusandae, repellendus qui dolore dolor, quidem, fugit ex tenetur beatae. Provident pariatur ipsa, veniam nulla id modi eius libero illo numquam saepe voluptatum animi amet quas, neque unde eum. Ea expedita veritatis natus ratione?
+          br
+          span - Lorem, ipsum.
+          br
+          span Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ratione.
+        .ui-col-4
+          img.ui-img-fit(src="images/placer.jpg")
+  
+  .ui-container.ui-padding-top.ui-padding-bottom
+    .ui-row.ui-padding-top.ui-padding-bottom
+      .ui-col-4
+        h2.ui-text-blue Lorem, ipsum dolor.
+        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a href="#" class="ui-text-blue">Soluta</a> ex dolor aliquid suscipit modi? Rerum.
+      .ui-col-4
+        .icon-block.icon-block--fixed-height
+          .icon-block__item
+            +icon('baby')
+            .icon-block__content
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
+          .icon-block__item
+            +icon('tap')
+            .icon-block__content
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
+      .ui-col-4
+        .icon-block
+          .icon-block__item
+            +icon('juice')
+            .icon-block__content
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
+          .icon-block__item
+            +icon('apple')
+            .icon-block__content
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
+
+  .ui-container.ui-padding-bottom
+    .ui-row
+      .ui-col-8
+        +img-atr('images/placer.jpg', null)
+      .ui-col-4
+        +sandwich('blue')
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel, dolorem, id, numquam commodi quo modi alias quidem expedita porro amet excepturi. Dolorum sed illum numquam architecto voluptatum velit accusamus, blanditiis obcaecati quis mollitia incidunt maiores, facilis ipsum natus cupiditate perferendis sunt explicabo earum id itaque vel vitae distinctio beatae! Libero sint inventore voluptate architecto?
+
+  #partner
+    +hero('images/hero-smiles.jpg', 'orange', 'handshake', 'Partner Highlights' )
+
+  .ui-container
+    .ui-row
+      .ui-col-7.ui-text-orange
+        +sandwich('orange')
+          br
+          h3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores assumenda.
+          br
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel, dolorem, id, numquam commodi quo modi alias quidem expedita porro amet excepturi. Dolorum sed illum numquam architecto voluptatum velit accusamus.
+          br
+      .ui-col-5
+          .img-atr
+            .img-atr__image(style=`background-image: url(images/placer.jpg); padding-bottom:80%;`)
+            .img-atr__atr Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores assumenda.
+
+
+  .ui-container
+    +stripes()
+
+  .ui-container.ui-padding-top
+    +blog-cards()
+
+  #finances
+    +hero('images/hero-smiles.jpg', 'purple', 'handshake', 'Finances & Who We Are' )
+
+  .ui-container
+    .ui-row
+      .ui-col-4.ui-right-div
+        h2.ui-text-purple Lorem
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident vero cupiditate consectetur eveniet dolor minima voluptates, nisi tenetur suscipit, esse quidem corrupti eaque labore iure dolorem exercitationem ducimus. Laudantium laborum eum quis dicta rem fugiat ratione, ipsa aperiam voluptatum culpa perferendis non quia quidem necessitatibus ipsam dolorum. Ipsam, provident.
+        br
+        a(href="#").ui-button.ui-button--purple 
+          | Download a PDF 
+          +icon('download')
+      .ui-col-4.ui-padding-left
+        h5 2018 Board of Directors
+        .ui-list
+          div Marilyn E. Taylor, Board Chair
+          div Cathy Garcia, Governance Chair
+          div Mary Noonan, Finance Chair
+          div Scott Hamilton, DDS
+          div Eric France, MD, MSPH
+          div Helen Drexler, DDCO President & CEO
+          div Richard Call, DMD, MS
+          div Kim Kretsch, DDS
+          div Luella Chavez D’Angelo
+          a.ui-text-purple(href="#") Read Bios
+      .ui-col-4 
+        h5 Staff
+        .ui-list
+          div Allison Cusick, Executive Director
+          div Monica Woods, Executive Assistant
+          div Megan Wilson, Director of Programs
+          div Amy Maillet, Communications Manager
+          div Cherith Flowerday, Program Officer
+          div Marybeth Goodwin, Senior Program Officer
+          div Mirella Chavez, Associate Program Officer
+          a.ui-text-purple(href="#") Read Bios

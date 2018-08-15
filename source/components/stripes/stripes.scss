@@ -1,0 +1,31 @@
+@import "../../styles/sass-includes/index";
+
+.stripes {
+
+}
+.stripes__item{
+  padding: 40px;
+  &:nth-child(odd){
+    background-color: $gray-light;
+  }
+  @include clearfix;
+}
+.stripes__title{
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  color: $orange;
+  font-weight: 400;
+  @include responsive(md){
+    float: none;
+    width: 100%;
+  }
+}
+.stripes__copy{
+  float: left;
+  width: 75%;
+  @include responsive(md){
+    float: none;
+    width: 100%;
+  }
+}

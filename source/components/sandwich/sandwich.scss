@@ -1,0 +1,20 @@
+@import "../../styles/sass-includes/index";
+
+.sandwich {
+  border: 12px solid $black;
+  border-left: 0;
+  border-right: 0;
+  padding: 40px 0;
+  &.sandwich--green{
+    border-color: $green;
+  }
+  &.sandwich--blue{
+    border-color: $blue;
+  }
+  &.sandwich--orange{
+    border-color: $orange;
+  }
+  &.sandwich--purple{
+    border-color: $purple;
+  }
+}

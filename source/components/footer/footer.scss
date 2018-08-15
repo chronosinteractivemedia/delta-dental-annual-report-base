@@ -1,0 +1,65 @@
+@import "../../styles/sass-includes/index";
+
+.footer {
+  background-color: $gray-light;
+  a{
+    text-decoration: none;
+    color: $purple;
+    &:hover{
+      color: $green;
+    }
+  }
+}
+
+.footer__wrapper {
+  max-width: $max-width;
+  padding: 60px $edge-padding;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+.footer__left{
+  width:70%;
+  float: left;
+  padding-right: 200px;
+  @include responsive(lg){
+    width: 50%;
+    padding-right: 20px;
+  }
+  @include responsive(md){
+    width: 100%;
+  }
+}
+.footer__right{
+  width: 30%;
+  float: left;
+  @include responsive(lg){
+    width: 50%;
+  }
+  @include responsive(md){
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.footer__section-title{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer__litem{
+  display: block;
+  position: relative;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,27 @@
+$font-primary: "proxima-nova", "Nexa", helvetica, arial, verdana, sans-serif;
+$font-secondary: "Nexa", helvetica, arial, verdana, sans-serif;
+
+$black: #262626;
+$white: #fff;
+
+$gray-dark: #666666;
+$gray-light: #F2F2F2;
+
+$green: #5FBC4A;
+$blue: #26BACF;
+$purple: #6F5A95;
+$orange: #E1714A;
+
+$edge-padding: 40px;
+$page-width: 1210px;
+$max-width: $page-width + ($edge-padding * 2);
+
+$breakpoints: (
+  xl: (min: 1600px),
+  lg: (min:768px, max:($max-width+40)),
+  md: (min: 620px, max:767px),
+  sm: (min: 420px, max:619px),
+  xs: (max: 419px)
+);
+
+$perspective-depth: 1000px;

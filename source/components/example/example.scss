@@ -1,0 +1,10 @@
+@import "../../styles/sass-includes/index";
+
+.example {
+}
+
+.example__wrapper {
+  max-width: $max-width;
+  padding: 0 $edge-padding;
+  margin: 0 auto;
+}
