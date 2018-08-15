@@ -8,128 +8,131 @@ block display
   #content-start.ui-container
     .ui-row
       .ui-col-6
-        p.ui-large-text.ui-text-gray Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum ut fugit rerum! Itaque, atque rerum labore debitis quidem exercitationem culpa quis ea cupiditate tempora nostrum! Illum, assumenda culpa sint voluptatibus <span class="ui-text-green">repudiandae fuga provident natus nostrum. Sed laudantium dolor hic vitae.</span>
+        p.ui-large-text.ui-text-gray For more than 20 years, Delta Dental of Colorado Foundation has been working to make good oral health a community priority. Traditionally our work was driven by our mission to eradicate childhood tooth decay. However, we were reaching beyond this focus. In 2017, the board and staff began a strategic planning process. The results informed an expanded population focus and new mission: <strong class="ui-text-green">to elevate the well-being of all Coloradans by advancing oral health equity.</strong>
         br
         p Today, we envision a world where everyone can achieve their best oral health. There isn’t one solution that will address all oral health inequities. Social determinants, such as race and ethnicity, income, geography and age, greatly impact a person’s smile. Our goal is to create accessible oral health care across a lifespan.
         p We are deepening our understanding of oral health equity. By expanding our partnerships and collaborating with communities across the state, we intend to reach people who have been historically overlooked. We are helping to improve the oral health of all Coloradans.
       .ui-col-6
-        +img-atr('images/placer.jpg', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nesciunt odit eius dignissimos labore, ab consectetur maxime consequatur asperiores fugiat, earum sunt deserunt libero! Minima?')
+        +img-atr('images/leader.jpg', 'Board leadership and direction is a key part of our work. Thank you to outgoing board chair, Terry Koele, for serving on our board for nine years. Terry is pictured here with current board chair, Marilyn Taylor, and Allison Cusick, executive director.')
   
   .ui-container
-    h3.ui-text-green Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora doloribus porro adipisci quod quasi, itaque sint cum nisi dicta harum ab excepturi esse molestias, natus voluptates. Blanditiis deserunt enim dolore.
-  
+    h3.ui-text-green In 2017, the foundation contributed $3.23 million in funding to support innovative programs that improve oral health and overall well-being.
   .ui-container.ui-padding-top
     .ui-row
-      .ui-col-8
-        +img-atr('images/placer.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae dolor nulla officiis! Voluptatum, ducimus distinctio?' )
-      .ui-col-4
+      .ui-col-8      
+        .img-atr
+          a(href="https://youtu.be/O4G-mrGKFhw" target="_blank"): .img-atr__image(style=`background-image: url(images/mission-video.jpg)`)
+          .img-atr__atr Executive Director Allison Cusick introduces our new mission and explains the foundation\'s focus and commitment to oral health equity.
+
+      .ui-col-4(style="font-size: 18px")
         +sandwich('green')
-          p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla aliquid doloribus debitis omnis quisquam ipsum asperiores similique, quo recusandae pariatur optio impedit cumque vel odio laudantium consequatur illo assumenda labore maxime error enim! Totam cupiditate et ab eos animi pariatur.
+          p: em Health equity is achieved when every person has the opportunity to “attain his or her full health potential” and no one is “disadvantaged from achieving this potential because of social position or other socially determined circumstances.” 
           br
-          p.ui-text-green Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          p.ui-text-green: strong Centers for Disease Control and Prevention, 2017
   
   .ui-container.ui-padding-top
     .ui-row
       .ui-col-6
         .ui-row
           .ui-col-5
-            h2.ui-text-green Lorem, ipsum dolor
-            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, impedit?
+            h2.ui-text-green Our Focus Areas
+            p: strong We create sustainable, measurable impact within three focus areas:
           .ui-col-7
               +icon-block()
       .ui-col-6
         .ui-row
           .ui-col-5
-            h2.ui-text-green Lorem ipsum dolor sit amet consectetur.
+            h2.ui-text-green Looking at oral health in Colorado
             img.ui-img-fit(src="images/map.svg")
           .ui-col-7
-            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quaerat pariatur voluptatibus voluptatem, adipisci minima quas, nemo modi doloribus aperiam sunt quis tenetur similique esse ea accusamus non! Sit magnam dolores consequatur, quasi voluptatum quo ad fuga. Sint assumenda at optio excepturi aspernatur. Architecto blanditiis ex dolorum eveniet numquam atque.
-            a.ui-button.ui-button--green.ui-margin-top
+            p People who have been historically overlooked are dealing with health inequities in many Colorado communities. As part of our strategic planning process, we partnered with the Colorado Health Institute to conduct a statewide oral health environmental scan, which provides statewide perspective and pinpoints <a href="http://deltadentalcofoundation.org/focus-areas/research/" target="_blank" class="ui-text-green">health disparities</a>. We shared the results and discussed next steps with our partners at a September convening hosted at the Colorado Health Foundation.
+            a(href="http://deltadentalcofoundation.org/wp-content/uploads/CHI_OralHealthEnvScan_DDCOF_2017.pdf" target="_blank").ui-button.ui-button--green.ui-margin-top
               | Download a PDF 
               +icon('download')
 
   #initiative
-    +hero('images/hero-smiles.jpg', 'blue', 'ribbon', 'Initiative Highlights' )
+    +hero('images/hero-initiative.jpg', 'blue', 'ribbon', 'Initiative Highlights' )
 
   .ui-container.ui-padding-top
     .ui-row
       .ui-col-7
         .ui-row
-          .ui-col-6
-            h2.ui-text-blue Lorem ipsum dolor sit amet.
+          .ui-col-5
+            h2.ui-text-blue Colorado Medical-Dental Integration Project
             br
-            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere beatae quisquam molestiae.
-          .ui-col-6
+            p.ui-large-text Launched in 2015, the Colorado Medical-Dental Integration (CO MDI) Project:
+          .ui-col-7
             ul
-              li Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eum!
-              li Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="ui-text-blue">Beatae, debitis quos? Aperiam.</a>
-              li Lorem ipsum dolor <a href="#" class="ui-text-blue">sit amet consectetur adipisicing elit</a>. Amet suscipit odit sequi voluptates expedita! Vitae saepe consequuntur numquam tempore iure.
-      .ui-col-5
+              li Integrates registered dental hygienists into medical care teams.
+              li Received a $750,000 grant to support Wave II from the <a class="ui-text-blue" href="http://deltadentalcofoundation.org/wp-content/uploads/COMDI-WaveII_DDCOF_PR_0418.pdf" target="_blank">Colorado Health Foundation.</a>
+              li Released the <a class="ui-text-blue" href="http:// www.medicaldentalintegration.org" target="_blank">CO MDI Toolkit</a> to train grantees. This how-to guide is available for medical organizations seeking to fully integrate a dental hygienist into a medical care team.
+      .ui-col-5.ui-padding-left
         +graphs()
     
   .ui-container
     +sandwich('blue')
       .ui-row
         .ui-col-8
-          p.ui-large-text.ui-text-blue Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eveniet voluptas autem rem velit? Blanditiis cupiditate nemo earum eligendi culpa.
-          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea voluptatem mollitia quod vel ipsum deserunt corporis recusandae, repellendus qui dolore dolor, quidem, fugit ex tenetur beatae. Provident pariatur ipsa, veniam nulla id modi eius libero illo numquam saepe voluptatum animi amet quas, neque unde eum. Ea expedita veritatis natus ratione?
+          p.ui-large-text <strong class="ui-text-blue">“While the state’s average dentist to patient ratio is one to 1,350, Phillips County sits at one to 4,363.</strong> According to data from the Colorado Health Institute and Centers for Disease Control and Prevention, the people of Holyoke and surrounding areas have 70 percent less access to care than their urban counterparts. Melissa Memorial’s selection as a CO MDI grantee means that more people in our community will now have the opportunity to improve their oral health.” 
           br
-          span - Lorem, ipsum.
+          strong: em - Trampas Hutches
           br
-          span Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, ratione.
+          strong: em chief executive officer, Melissa Memorial Hospital, Holyoke, Colorado
         .ui-col-4
-          img.ui-img-fit(src="images/placer.jpg")
+          img.ui-img-fit(src="images/ratio.jpg")
   
   .ui-container.ui-padding-top.ui-padding-bottom
     .ui-row.ui-padding-top.ui-padding-bottom
-      .ui-col-4
-        h2.ui-text-blue Lorem, ipsum dolor.
-        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a href="#" class="ui-text-blue">Soluta</a> ex dolor aliquid suscipit modi? Rerum.
-      .ui-col-4
-        .icon-block.icon-block--fixed-height
-          .icon-block__item
-            +icon('baby')
-            .icon-block__content
-              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
-          .icon-block__item
-            +icon('tap')
-            .icon-block__content
-              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
-      .ui-col-4
-        .icon-block
-          .icon-block__item
-            +icon('juice')
-            .icon-block__content
-              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
-          .icon-block__item
-            +icon('apple')
-            .icon-block__content
-              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum.
+      .ui-col-3
+        h2.ui-text-blue Public Will Building
+        p.ui-large-text Wrapping up our 5-year public will building efforts, <a href="http://deltadentalcofoundation.org/wp-content/uploads/CGA_SurveyResults_PR-DDCOF_0218.pdf" target="_blank" class="ui-text-blue">results</a> from the 2017 Cavities Get Around statewide survey show:
+      .ui-col-9
+        .ui-row  
+          .ui-col-6
+            .icon-block.icon-block--fixed-height
+              .icon-block__item
+                +icon('baby')
+                .icon-block__content
+                  p Statistically significant decreases in percentages of participants who considered baby teeth at least as important as adult teeth (<strong>from 84% to 76%</strong>) and in their understanding that cavities can spread from baby teeth to other teeth (<strong>from 71% to 59%</strong>).
+              .icon-block__item
+                +icon('tap')
+                .icon-block__content
+                  p More parents recognize the benefits of drinking tap water (<strong>up 16 points from 2015 to 60%</strong>), although daily consumption of water among children remained flat at 60%.
+          .ui-col-6
+            .icon-block
+              .icon-block__item
+                +icon('juice')
+                .icon-block__content
+                  p The percentage of participants who said their kids are drinking juice at least once a day decreased significantly, from <strong>47% in 2015 to 35% in 2017</strong>.
+              .icon-block__item
+                +icon('apple')
+                .icon-block__content
+                  p The perception of fruit juice’s nutritional value dropped significantly since 2015 (<strong>-24 points</strong>) among parents who saw campaign advertising.
 
   .ui-container.ui-padding-bottom
     .ui-row
       .ui-col-8
-        +img-atr('images/placer.jpg', null)
+        a(href="https://www.youtube.com/watch?v=sMX-Omnf6-c&feature=youtu.be" target="_blank"): +img-atr('images/prevent-video.jpg', null)
       .ui-col-4
         +sandwich('blue')
-          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel, dolorem, id, numquam commodi quo modi alias quidem expedita porro amet excepturi. Dolorum sed illum numquam architecto voluptatum velit accusamus, blanditiis obcaecati quis mollitia incidunt maiores, facilis ipsum natus cupiditate perferendis sunt explicabo earum id itaque vel vitae distinctio beatae! Libero sint inventore voluptate architecto?
+          p.ui-large-text.ui-text-gray: em Teaming up to eliminate childhood tooth decay in Pueblo and surrounding communities, the South Eastern Colorado Area Health Education Center (SECAHEC) engages volunteers to meet with the community in their familiar spaces. SECAHEC volunteer and intern Jasmine Hall talked to KOAA about building public will and using the Cavities Get Around campaign messaging in her Women, Infants, Children (WIC) outreach. 
 
   #partner
-    +hero('images/hero-smiles.jpg', 'orange', 'handshake', 'Partner Highlights' )
+    +hero('images/hero-partner.jpg', 'orange', 'handshake', 'Partner Highlights' )
 
   .ui-container
     .ui-row
       .ui-col-7.ui-text-orange
         +sandwich('orange')
           br
-          h3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores assumenda.
+          h3: strong Every community has unique needs, assets and priorities. 
           br
-          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel, dolorem, id, numquam commodi quo modi alias quidem expedita porro amet excepturi. Dolorum sed illum numquam architecto voluptatum velit accusamus.
+          p.ui-large-text We partner with organizations to address community needs and implement activities to improve oral health in Colorado. Highlights of these relationships include: 
           br
       .ui-col-5
           .img-atr
-            .img-atr__image(style=`background-image: url(images/placer.jpg); padding-bottom:80%;`)
-            .img-atr__atr Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores assumenda.
+            .img-atr__image(style=`background-image: url(images/community.jpg); padding-bottom:85%;`)
+            .img-atr__atr A Qualistar early child care professional teaches a child how to brush her teeth at a Denver Healthy Smiles Summit.
 
 
   .ui-container
@@ -139,13 +142,13 @@ block display
     +blog-cards()
 
   #finances
-    +hero('images/hero-smiles.jpg', 'purple', 'handshake', 'Finances & Who We Are' )
+    +hero('images/hero-finance.jpg', 'purple', 'piggy', 'Finances & Who We Are' )
 
   .ui-container
     .ui-row
       .ui-col-4.ui-right-div
-        h2.ui-text-purple Lorem
-        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident vero cupiditate consectetur eveniet dolor minima voluptates, nisi tenetur suscipit, esse quidem corrupti eaque labore iure dolorem exercitationem ducimus. Laudantium laborum eum quis dicta rem fugiat ratione, ipsa aperiam voluptatum culpa perferendis non quia quidem necessitatibus ipsam dolorum. Ipsam, provident.
+        h2.ui-text-purple Finances
+        p As a 501(c)(3) funded by the nonprofit Delta Dental of Colorado, we are grateful to the company and Board of Trustees for the financial support they provide for our work. Approximately 89% of our budget expenditures directly support our programs and initiatives. In 2017, we also partnered with the Colorado Health Foundation to combine funding that supported our CO MDI Wave II grantees. 
         br
         a(href="#").ui-button.ui-button--purple 
           | Download a PDF 
@@ -153,24 +156,24 @@ block display
       .ui-col-4.ui-padding-left
         h5 2018 Board of Directors
         .ui-list
-          div Marilyn E. Taylor, Board Chair
-          div Cathy Garcia, Governance Chair
-          div Mary Noonan, Finance Chair
-          div Scott Hamilton, DDS
-          div Eric France, MD, MSPH
-          div Helen Drexler, DDCO President & CEO
-          div Richard Call, DMD, MS
-          div Kim Kretsch, DDS
-          div Luella Chavez D’Angelo
+          div <strong>Marilyn E. Taylor</strong>, <em>Board Chair</em>
+          div <strong>Cathy Garcia</strong>, <em>Governance Chair</em>
+          div <strong>Mary Noonan</strong>, <em>Finance Chair</em>
+          div <strong>Scott Hamilton</strong>, <em>DDS</em>
+          div <strong>Eric France</strong>, <em>MD, MSPH</em>
+          div <strong>Helen Drexler</strong>, <em>DDCO President & CEO</em>
+          div <strong>Richard Call</strong>, <em>DMD, MS</em>
+          div <strong>Kim Kretsch</strong>, <em>DDS</em>
+          div <strong>Luella Chavez D’Angelo</strong>
           a.ui-text-purple(href="#") Read Bios
       .ui-col-4 
         h5 Staff
         .ui-list
-          div Allison Cusick, Executive Director
-          div Monica Woods, Executive Assistant
-          div Megan Wilson, Director of Programs
-          div Amy Maillet, Communications Manager
-          div Cherith Flowerday, Program Officer
-          div Marybeth Goodwin, Senior Program Officer
-          div Mirella Chavez, Associate Program Officer
+          div <strong>Allison Cusick</strong>, <em>Executive Director</em>
+          div <strong>Monica Woods</strong>, <em>Executive Assistant</em>
+          div <strong>Megan Wilson</strong>, <em>Director of Programs</em>
+          div <strong>Amy Maillet</strong>, <em>Communications Manager</em>
+          div <strong>Cherith Flowerday</strong>, <em>Program Officer</em>
+          div <strong>Marybeth Goodwin</strong>, <em>Senior Program Officer</em>
+          div <strong>Mirella Chavez</strong>, <em>Associate Program Officer</em>
           a.ui-text-purple(href="#") Read Bios

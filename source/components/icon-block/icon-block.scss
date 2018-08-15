@@ -12,8 +12,8 @@
     height:50px;
     float: left;
     &[icon-type="chair"]{fill: $blue;}
-    &[icon-type="tooth-plain"]{fill: $blue;}
-    &[icon-type="health"]{fill: $blue;}
+    &[icon-type="tooth-plain"]{fill: $purple;}
+    &[icon-type="health"]{fill: $orange;}
     &[icon-type="baby"]{fill: $purple;}
     &[icon-type="juice"]{fill: $orange;}
     &[icon-type="tap"]{fill: $blue;}
@@ -30,6 +30,7 @@
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 5px;
+    font-weight: 500;
   }
   p{
     margin-top: 0;

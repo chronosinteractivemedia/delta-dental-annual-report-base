@@ -47,6 +47,8 @@ ul{
     margin-bottom: 40px;
     list-style: none;
     position: relative;
+    line-height: 150%;
+
     &:before{
       content: '';
       position: absolute;
