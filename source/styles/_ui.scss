@@ -5,6 +5,12 @@
   max-width: $max-width;
   padding: 0 $edge-padding;
   margin: 40px auto;
+  @include responsive(lg){
+    padding: 0 $edge-padding*3;
+  }
+  @include responsive(md){
+    padding: 0 $edge-padding;
+  }
 }
 
 .ui-row{
@@ -59,12 +65,12 @@
         }
       }
       .ui-col-9, .ui-col-10,
-      .ui-col-11, .ui-col-12{
+      .ui-col-11, .ui-col-12, .ui-lg-full{
         width: calc(100% - #{$edge-padding}); margin-bottom: 20px;
       }
     }
   
-    @include responsive(sm){
+    @include responsive(md){
       .ui-col-1,
       .ui-col-2,
       .ui-col-3,
