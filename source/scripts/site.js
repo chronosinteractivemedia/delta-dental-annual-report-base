@@ -21,5 +21,9 @@
 
   elmtry.bind(GlobalSite);
 
+
+  class BasicFadeInElement extends elmtry.Component{}
+  elmtry.bind(BasicFadeInElement, '.ui-container');
+
 })(elmtry);
 

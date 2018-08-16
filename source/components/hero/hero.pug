@@ -1,5 +1,6 @@
 mixin hero(image = "images/hero-smiles.jpg", color = "purple", icon="piggy", title="Finances and who we are")
-  .hero(class=`hero--${color}` style=`background-image: url(${image})`)
+  .hero(class=`hero--${color}`)
+    .hero__bg(style=`background-image: url(${image})`)
     .hero__title
       +icon(icon)
       h2=title

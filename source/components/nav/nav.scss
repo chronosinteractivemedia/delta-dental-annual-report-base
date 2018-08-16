@@ -51,7 +51,17 @@
   @include ghost-center();
   text-align: center;
   visibility: hidden;
+  span{
+    display: inline-block;
+    opacity:0;
+    transform: translate3d(20px,0,0);
+    transition: all 600ms $ease-out-quint;
+  }
   .nav__item:hover &{
     visibility: visible;
+    span{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
   }
 }
