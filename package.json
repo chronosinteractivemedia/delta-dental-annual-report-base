@@ -5,7 +5,8 @@
   "main": "demo-node-server.js",
   "scripts": {
     "start": "node ./demo-node-server.js",
-    "postinstall": "gulp"
+    "postinstall": "gulp",
+    "watch": "gulp watch"
   },
   "author": "Jordan Sullivan",
   "license": "ISC",
@@ -37,6 +38,7 @@
   },
   "dependencies": {
     "express": "4.13.3",
-    "npm": "^6.4.0"
+    "npm": "^6.4.0",
+    "v8": "^0.1.0"
   }
 }
