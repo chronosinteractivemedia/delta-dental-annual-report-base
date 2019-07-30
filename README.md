@@ -1,4 +1,4 @@
-# Static Site Generator - Updated 8/17/2018 10:32 am
+# Delta Dental Annual Report - Updated 8/17/2018 10:32 am
  All source code is inside the /source directory
 
 ## Pre-requisites
