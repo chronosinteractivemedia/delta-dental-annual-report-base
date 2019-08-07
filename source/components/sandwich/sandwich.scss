@@ -4,7 +4,8 @@
   border: 12px solid $black;
   border-left: 0;
   border-right: 0;
-  padding: 40px 0;
+  border-bottom: 0;
+  padding: 10px 0;
   &.sandwich--green{
     border-color: $green;
   }

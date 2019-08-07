@@ -7,134 +7,120 @@ block display
   
   #content-start.ui-container
     .ui-row
-      .ui-col-6
-        p.ui-large-text.ui-text-gray For more than 20 years, Delta Dental of Colorado Foundation has been working to make good oral health a community priority. Traditionally our work was driven by our mission to eradicate childhood tooth decay. However, we were reaching beyond this focus. In 2017, the board and staff began a strategic planning process. The results informed an expanded population focus and new mission: <strong class="ui-text-green">to elevate the well-being of all Coloradans by advancing oral health equity.</strong>
-        br
-        p Today, we envision a world where everyone can achieve their best oral health. There isn’t one solution that will address all oral health inequities. Social determinants, such as race and ethnicity, income, geography and age, greatly impact a person’s smile. Our goal is to create accessible oral health care across a lifespan.
-        p We are deepening our understanding of oral health equity. By expanding our partnerships and collaborating with communities across the state, we intend to reach people who have been historically overlooked. We are helping to improve the oral health of all Coloradans.
-      .ui-col-6
-        +img-atr('images/leader.jpg', 'Board leadership and direction is a key part of our work. Thank you to outgoing board chair, Terry Koele, for serving on our board for nine years. Terry is pictured here with current board chair, Marilyn Taylor, and Allison Cusick, executive director.')
-  
-  .ui-container
-    h3.ui-text-green In 2017, the foundation contributed $3.23 million in funding to support innovative programs that improve oral health and overall well-being.
-  .ui-container.ui-padding-top
-    .ui-row
-      .ui-col-8      
-        .img-atr
-          a(href="https://youtu.be/O4G-mrGKFhw" target="_blank"): .img-atr__image(style=`background-image: url(images/mission-video.jpg)`)
-          .img-atr__atr Executive Director Allison Cusick introduces our new mission and explains the foundation's focus and commitment to oral health equity.
-
-      .ui-col-4(style="font-size: 18px")
-        +sandwich('green')
-          p.ui-text-gray: em Health equity is achieved when every person has the opportunity to “attain his or her full health potential” and no one is “disadvantaged from achieving this potential because of social position or other socially determined circumstances.” 
-          br
-          p.ui-text-green: strong Centers for Disease Control and Prevention, 2017
-  
-  .ui-container.ui-padding-top
-    .ui-row
+      .ui-col-6.ui-border-right
+        p.ui-large-text.ui-text-gray For more than 20 years, Delta Dental of Colorado Foundation has been working to make good oral health a community priority. In March of 2018 we shared our new mission: <strong class="ui-text-green">to elevate the well-being of all Coloradans by advancing oral health equity.</strong>
+        p.ui-width-constraint.ui-gotham We believe oral health equity means that every person can have a healthy mouth regardless of life circumstances. Our goal is to create accessible oral health care across a lifespan, reaching those who have the most to gain.
+        .ui-border-top
+          img.ui-img-fit.ui-piggy(src="images/piggy.jpg")
       .ui-col-6
         .ui-row
-          .ui-col-5
+          .nothing
             h2.ui-text-green Our Focus Areas
             p: strong We create sustainable, measurable impact within three focus areas:
-          .ui-col-7
+          .nothing
               +icon-block()
-      .ui-col-6
-        .ui-row
-          .ui-col-5
-            h2.ui-text-green Looking at oral health in Colorado
-            img.ui-img-fit(src="images/map.svg")
-          .ui-col-7
-            p People who have been historically overlooked are dealing with health inequities in many Colorado communities. As part of our strategic planning process, we partnered with the Colorado Health Institute to conduct a statewide oral health environmental scan, which provides statewide perspective and pinpoints <a href="http://deltadentalcofoundation.org/focus-areas/research/" target="_blank" class="ui-text-green">health disparities</a>. We shared the results and discussed next steps with our partners at a September convening hosted at the Colorado Health Foundation.
-            a(href="http://deltadentalcofoundation.org/wp-content/uploads/CHI_OralHealthEnvScan_DDCOF_2017.pdf" target="_blank").ui-button.ui-button--green.ui-margin-top
-              | Download a PDF 
-              +icon('download')
+  .ui-container.ui-padding-top.ui-gray-padding.ui-noMaxWidth
+    .ui-row.ui-max-width1200
+      .ui-col-6      
+        img.ui-margin-offset.ui-img-fit(src="images/FoundationMap.jpg")
+      .ui-col-6.ui-padding-right-55
+        h2.ui-text-green.ui-title-contraint Going the Extra Mile for Every Smile
+        p.ui-width-constraint.ui-gotham Every day we partner with communities to reimagine how all of our neighbors access, benefit from, and value the importance of proper oral health care. Take a look at our <a href="https://maps.foundationcenter.org/?acct=DELT035" target="_blank" class="ui-text-green">current oral health funding outreach across Colorado.</a>
+        img.ui-img-fit.ui-graph(src="images/66grants.svg")
+  .ui-container.ui-padding-top.ui-noMaxWidth
+    .ui-row.ui-max-width1200
+      .ui-col-6.ui-padding-right-55
+        h2.ui-text-green.ui-title-contraint A Year of Growth and Learning
+        p.ui-width-constraint.ui-gotham We’ve been on a journey to better understand what oral health equity means to us. <a href="https://www.deltadentalcofoundation.org/wp-content/uploads/Exec-Sum-DDCOF-August-2017.pdf" target="_blank" class="ui-text-green">Social determinants</a>, such as race and ethnicity, income, geography and age, greatly impact a person’s smile. Our partner, the Colorado Health Institute, provided <a href="https://maps.foundationcenter.org/?acct=DELT035" target="_blank" class="ui-text-green">key insights</a> into disparities faced by communities across the state. Using this data, we created an evaluation framework to help us focus our efforts and measure change. This led to our Theory of Change, providing levers for action.
+        p.ui-width-constraint.ui-gotham As a funder, we explored ways to be more <a href=" https://www.linkedin.com/pulse/improving-oral-health-equity-new-funding-approaches-allison-cusick/5" target="_blank" class="ui-text-green">equitable.</a> We refocused our efforts to listen more to community needs and priorities, and collaborate with communities to inform our work. We aim to truly develop relationships with our community partners, creating a network of people working together to improve oral health for those who have the most to gain.
+      .ui-col-6      
+        img.ui-margin-offset.ui-img-fit(src="images/TheoryMap.jpg") 
 
   #initiative
-    +hero('images/hero-initiative.jpg', 'blue', 'ribbon', 'Initiative Highlights' )
+    +hero('images/hero2.jpg', 'blue', 'ribbon', 'Grant-making Highlights' )
 
-  .ui-container.ui-padding-top
-    .ui-row
-      .ui-col-7
-        .ui-row
-          .ui-col-5
-            h2.ui-text-blue Colorado Medical-Dental Integration Project
-            br
-            p.ui-large-text Launched in 2015, the Colorado Medical-Dental Integration (CO MDI) Project:
-          .ui-col-7
-            ul
-              li Integrates registered dental hygienists into medical care teams.
-              li Received a $750,000 grant to support Wave II from the <a class="ui-text-blue" href="http://deltadentalcofoundation.org/wp-content/uploads/COMDI-WaveII_DDCOF_PR_0418.pdf" target="_blank">Colorado Health Foundation.</a>
-              li Released the <a class="ui-text-blue" href="http://www.medicaldentalintegration.org" target="_blank">CO MDI Toolkit</a> to train grantees. This how-to guide is available for medical organizations seeking to fully integrate a dental hygienist into a medical care team.
-      .ui-col-5.ui-padding-left
-        +graphs()
+  .ui-container.ui-padding-top.ui-noMaxWidth
+    .ui-row.ui-max-width1200
+      .ui-col-6
+        h2.ui-text-blue.ui-title-contraint Open Funding
+        p.ui-width-constraint.ui-medium-text.ui-padding-right33 The foundation launched Open Funding in 2018 to hear directly from Colorado communities. We wanted to know what oral health challenges they face and how they are addressing these barriers. This new funding opportunity provides grants for Colorado organizations to power community-led solutions.
+        p.ui-width-constraint.ui-margin-top10px.ui-no-padding Staff spent the first six months of 2018 strategizing and crafting Open Funding. This included developing grant guidelines, implementing a grants management system to allow for online applications and creating an evaluation framework. 
+        p.ui-width-constraint.ui-gotham.ui-margin-top10px.ui-no-padding Sixty-one applications proved that the need for dedicated oral health funding is significant. Site visits allowed staff to better understand local communities and needs, resulting in travel from Sterling to Cortez, Craig to Alamosa. 
+        p.ui-width-constraint.ui-gotham.ui-margin-top10px.ui-no-padding As a result, we partnered with <a href="https://www.deltadentalcofoundation.org/wp-content/uploads/ResponsiveGrantFunding_DDCOF_1118.pdf" target="_blank" class="ui-text-blue">29 Colorado nonprofits,</a> awarding nearly $3.5 million in funding over three years. A wide variety of strategies were supported that advance oral health equity with a focus on accessing oral health care or preventing tooth decay. 
+        p.ui-width-constraint.ui-gotham.ui-margin-top10px.ui-no-padding Partnering on community-driven solutions is essential to advancing our mission. The insight gained from these new relationships will inform how we deepen our focus and strengthen our partnerships with local communities in 2019.
+      .ui-col-6      
+        img.ui-margin-offset.ui-img-fit.ui-margin-offset-large(src="images/Highlights.jpg") 
     
   .ui-container
     +sandwich('blue')
-      .ui-row
-        .ui-col-8
-          p.ui-large-text <strong class="ui-text-blue">“While the state’s average dentist to patient ratio is one to 1,350, Phillips County sits at one to 4,363.</strong> According to data from the Colorado Health Institute and Centers for Disease Control and Prevention, the people of Holyoke and surrounding areas have 70 percent less access to care than their urban counterparts. Melissa Memorial’s selection as a CO MDI grantee means that more people in our community will now have the opportunity to improve their oral health.” 
-          br
-          strong: em - Trampas Hutches
-          br
-          strong: em chief executive officer, Melissa Memorial Hospital, Holyoke, Colorado
-        .ui-col-4
-          img.ui-img-fit(src="images/ratio.jpg")
-  
-  .ui-container.ui-padding-top.ui-padding-bottom
-    .ui-row.ui-padding-top.ui-padding-bottom
-      .ui-col-4.ui-lg-full.ui-padding-right
-        h2.ui-text-blue Public Will Building
-        p.ui-large-text Wrapping up our 5-year public will building efforts, <a href="http://deltadentalcofoundation.org/wp-content/uploads/CGA_SurveyResults_PR-DDCOF_0218.pdf" target="_blank" class="ui-text-blue">results</a> from the 2017 Cavities Get Around statewide survey show:
-      .ui-col-8.ui-lg-full
-        .icon-block
-          .icon-block__item
-            +icon('tap')
-            .icon-block__content
-              p More parents recognize the benefits of drinking tap water (<strong>up 16 points from 2015 to 60%</strong>), although daily consumption of water among children remained flat at 60%.
-          .icon-block__item
-            +icon('juice')
-            .icon-block__content
-              p The percentage of participants who said their kids are drinking juice at least once a day decreased significantly, from <strong>47% in 2015 to 35% in 2017</strong>.
-          .icon-block__item
-            +icon('apple')
-            .icon-block__content
-              p The perception of fruit juice’s nutritional value dropped significantly since 2015 (<strong>-24 points</strong>) among parents who saw campaign advertising.
-
-  .ui-container.ui-padding-bottom
     .ui-row
-      .ui-col-8
-        a(href="https://www.youtube.com/watch?v=sMX-Omnf6-c&feature=youtu.be" target="_blank"): +img-atr('images/prevent-video.jpg', null)
-      .ui-col-4
-        +sandwich('blue')
-          p.ui-large-text.ui-text-gray: em Teaming up to eliminate childhood tooth decay in Pueblo and surrounding communities, the South Eastern Colorado Area Health Education Center (SECAHEC) engages volunteers to meet with the community in their familiar spaces. SECAHEC volunteer and intern Jasmine Hall talked to <a href="https://www.youtube.com/watch?v=sMX-Omnf6-c&feature=youtu.be" target="_blank" class="ui-text-blue">KOAA</a> about building public will and using the Cavities Get Around campaign messaging in her Women, Infants, Children (WIC) outreach. 
+      .ui-col-6      
+        img.ui-margin-offset.ui-img-fit.ui-margin-offset-large(src="images/Frontier.jpg") 
+      .ui-col-6
+        h2.ui-text-blue.ui-title-contraint Invited Grants
+        p.ui-width-constraint.ui-medium-text.ui-padding-right33 In 2018 we partnered with several organizations, such as the <a href=" https://www.coloradokids.org/" target="_blank" class="ui-text-blue">Colorado Children’s Campaign,</a>, to advance oral health policy and strengthen the future oral health workforce.
+        p.ui-width-constraint.ui-margin-top10px.ui-no-padding We were thrilled to see the Colorado Department of Public Health & Environment‘s <a href="https://www.colorado.gov/pacific/sites/default/files/PW_OH_BSSReport.pdf" target="_blank" class="ui-text-blue">Basic Screening Survey</a>, released in February of 2018. This survey happens once every five years and provides essential data. The results show that although there is still much work to be done, oral health for children in Colorado is improving. 
+        p.ui-width-constraint.ui-gotham.ui-margin-top10px.ui-no-padding Over the past 14 years, more than 5,000 medical, pharmacy, nursing and other health profession students, residents and practitioners have participated in interprofessional training opportunities through the University of Colorado School of Dental Medicine’s <a href="http://www.ucdenver.edu/academics/colleges/dentalmedicine/CommunityService/Pages/Frontier-Center.aspx" target="_blank" class="ui-text-blue">Frontier Center 4 Health</a>.
 
   #partner
-    +hero('images/hero-partner.jpg', 'orange', 'handshake', 'Partner Highlights' )
+    +hero('images/hero3.jpg', 'orange', 'handshake', 'Initiatives' )
 
   .ui-container
-    .ui-row
-      .ui-col-7.ui-text-orange
-        +sandwich('orange')
-          br
-          h3: strong Every community has unique needs, assets and priorities. 
-          br
-          p.ui-large-text We partner with organizations to address community needs and implement activities to improve oral health in Colorado. Highlights of these relationships include: 
-          br
-      .ui-col-5
-          .img-atr
-            .img-atr__image(style=`background-image: url(images/community.jpg); padding-bottom:85%;`)
-            .img-atr__atr A Qualistar early child care professional teaches a child how to brush her teeth at a Denver Healthy Smiles Summit.
-
-
+    .ui-row.ui-margin-bottom-35
+      .ui-col-6      
+        h2.ui-text-orange.ui-title-contraint Invited Grants   
+        p.ui-width-constraint.ui-medium-text.ui-padding-right33 <a href="http://medicaldentalintegration.org/co-mdi-overview/" target="_blank" class="ui-text-orange">The Colorado Medical-Dental Integration (CO MDI) Project</a> is the first of its kind in the nation. It provides funding for medical practices to integrate a hygienist into their clinics. This allows for full scope dental hygiene services during regular medical checkups. The partnership between medical grantees and dental professionals increases access to care in rural and urban locations.    
+        img.ui-img-fit(src="images/Sitting.jpg") 
+        p.ui-width-constraint.ui-padding-right33 The foundation awarded funding to 16 medical practices as part of CO MDI Wave I in 2015.  <a href="https://www.deltadentalcofoundation.org/wp-content/uploads/COMDI-WaveII_DDCOF_PR_0418.pdf" target="_blank" class="ui-text-orange">Wave II</a> of the project was launched in Spring 2018. We partnered with the <a href="https://www.deltadentalcofoundation.org/wp-content/uploads/COMDI_MontroseDailyPress_0418.pdf" target="_blank" class="ui-text-orange">Colorado Health Foundation</a> to provide $3.3 million in CO MDI funding over four years for 10 <a href="http://medicaldentalintegration.org/co-mdi-overview/" target="_blank" class="ui-text-orange">additional medical practices</a>. Wave II clinics began seeing patients in Fall 2018.
+        
+      .ui-col-6.ui-gray.ui-margin-top-35
+        img.ui-margin-top-25.ui-margin-offset.ui-img-fit(src="images/Medical.svg") 
+        p.ui-width-constraint.ui-margin-top10px.ui-no-padding We were thrilled to see the Colorado Department of Public Health & Environment‘s Basic Screening Survey, released in February of 2018. This survey happens once every five years and provides essential data. The results show that although there is still much work to be done, oral health for children in Colorado is improving. 
+        p.ui-width-constraint.ui-gotham.ui-margin-top10px.ui-no-padding Over the past 14 years, more than 5,000 medical, pharmacy, nursing and other health profession students, residents and practitioners have participated in interprofessional training opportunities through the University of Colorado School of Dental Medicine’s Frontier Center 4 Health.
+        p.ui-quote - Sheridan Health Services
+    +sandwich('orange')
+    .ui-row.ui-margin-top-35
+      .ui-col-6.ui-margin-top-35
+        img.ui-margin-top-25.ui-margin-offset.ui-img-fit(src="images/FunCharts.jpg") 
+      .ui-col-6      
+        h2.ui-text-orange.ui-title-contraint Land of Smiles  
+        p.ui-width-constraint.ui-medium-text.ui-padding-right33 Land of Smiles is a school-based theater program for K-3 students. Starring Tooth Wizard and his antagonist, Plaque Man, this fun and interactive show teaches the value of good oral health
+        img.ui-img-fit(src="images/FunDentist.jpg") 
+        p.ui-width-constraint.ui-padding-right33 After the show, each student receives a Smile Bag containing a toothbrush, toothpaste and floss. In 2018, the program distributed 25,511 smiles bags to students across the state! This year was focused on reaching schools with a high population of students eligible for free and reduced lunch and schools in rural communities.
+        p.ui-width-constraint.ui-padding-right33 “A parent of an ECE student at Valverde Elementary said her daughter was so excited about the show and was showing her who all the characters were in the little book.  The mom used to have a daily battle with her to brush her teeth and ever since, her daughter is excited to brush her teeth and taking more accountability for her oral health! The actors are so nice and kind and it was just a pleasure to have them at our school!”  
+        p.ui-quote - Valverde and Columbian School Nurse
   .ui-container
-    +stripes()
-
-  .ui-container.ui-padding-top
-    +blog-cards()
+    .ui-row.ui-margin-top-35
+      .ui-col-3
+        img.ui-img-fit(src="images/video1.jpg") 
+      .ui-col-8
+        p JANUARY 11, 2019
+        p.ui-orangeTitle.ui-text-orange <a href="https://denver.cbslocal.com/2019/01/10/delta-dental-oral-health-screenings-seniors/" target="_blank" class="ui-text-orange">‘I Can Smile’: Low-income Seniors Benefit from Delta Dental Grant</a>
+        p A $45,000 grant from the Delta Dental of Colorado Foundation is helping bring important oral health care to low income seniors. Gloria Phillips says she keeps busy by sewing, doing puzzles, and taking care of her health.
+    .ui-row.ui-margin-top-35
+      .ui-col-3
+        img.ui-img-fit(src="images/video2.jpg") 
+      .ui-col-8
+        p DECEMBER 18, 2018
+        p.ui-orangeTitle.ui-text-orange <a href="https://www.fortmorgantimes.com/2018/12/17/34m-grant-supports-oral-health/" target="_blank" class="ui-text-orange">$3.4M Grant Supports Oral Health</a>
+        p Improving access to dental care and preventing tooth decay will be the focus of a new grant from Delta Dental of Colorado Foundation, which will provide $3.4 million in funding through the next three years to 29 organizations.
+    .ui-row.ui-margin-top-35
+      .ui-col-3
+        img.ui-img-fit(src="images/video3.jpg") 
+      .ui-col-8
+        p OCTOBER 11, 2018
+        p.ui-orangeTitle.ui-text-orange <a href="https://www.lajuntatribunedemocrat.com/news/20181011/land-of-smiles-brings-laughs-amp-lessons" target="_blank" class="ui-text-orange">Land of Smiles Brings Laughs and Lessons</a>
+        p The Land of Smiles program sponsored by Delta Dental visited La Junta Primary and Intermediate Schools on Wednesday. The program was hilarious, with the Tooth Wizard (product of University of Northern Colorado Drama Program) and Plaque Man (from Mesa College Drama Department).
+    .ui-row.ui-margin-top-35
+      .ui-col-3
+        img.ui-img-fit(src="images/video4.jpg") 
+      .ui-col-8
+        p MAY 8, 2018
+        p.ui-orangeTitle.ui-text-orange <a href="https://www.montrosepress.com/news/grant-money-to-help-river-valley-services-to-grow/article_7341be2c-526f-11e8-a77b-e3c70c7a1fea.html" target="_blank" class="ui-text-orange">Grant Money to Help River Valley Services to Grow</a>
+        p River Valley Family Health Center CEO Jeremy Carroll said he can’t believe the local nonprofit will add to its dental care team only nine months after adding the service to its site.
 
   #finances
-    +hero('images/hero-finance.jpg', 'purple', 'piggy', 'Finances & Who We Are' )
+    +hero('images/hero4.jpg', 'purple', 'piggy', 'Finances & Who We Are' )
 
   .ui-container
     .ui-row
@@ -142,9 +128,7 @@ block display
         h2.ui-text-purple Finances
         p As a 501(c)(3) funded by the nonprofit Delta Dental of Colorado, we are grateful to the company and Board of Trustees for the financial support they provide for our work. Approximately 89% of our budget expenditures directly support our programs and initiatives. In 2017, we also partnered with the Colorado Health Foundation to combine funding that supported our CO MDI Wave II grantees. 
         br
-        a(href="http://deltadentalcofoundation.org/wp-content/uploads/DDCOF_990.pdf" target="_blank").ui-button.ui-button--purple 
-          | Download a PDF 
-          +icon('download')
+        a.ui-text-purple(href="http://deltadentalcofoundation.org/our-story/board/" target="_blank") See Our 990
       .ui-col-4.ui-padding-left
         h4 2018 Board of Directors
         .ui-list
@@ -157,7 +141,7 @@ block display
           div <strong>Richard Call</strong>, <em>DMD, MS</em>
           div <strong>Kim Kretsch</strong>, <em>DDS</em>
           div <strong>Luella Chavez D’Angelo</strong>
-          a.ui-text-purple(href="http://deltadentalcofoundation.org/our-story/board/" target="_blank") Read Bios
+          a.ui-text-purple(href="https://www.deltadentalcofoundation.org/about-us/staff-board/" target="_blank") Read Bios
       .ui-col-4 
         h4 Staff
         .ui-list
@@ -168,4 +152,5 @@ block display
           div <strong>Cherith Flowerday</strong>, <em>Program Officer</em>
           div <strong>Marybeth Goodwin</strong>, <em>Senior Program Officer</em>
           div <strong>Mirella Chavez</strong>, <em>Associate Program Officer</em>
-          a.ui-text-purple(href="http://deltadentalcofoundation.org/our-story/staff/" target="_blank") Read Bios
+          div <strong>Veronica Contreras de Raya</strong>, <em>Communications and Graphic Design Specialist</em>
+          a.ui-text-purple(href="https://www.deltadentalcofoundation.org/about-us/staff-board/" target="_blank") Read Bios

@@ -141,11 +141,11 @@ gulp.task('copy-files', function () {
 
 gulp.task('start-watch', function () {
   browserSync.init({server: "./build/"});
-  gulp.watch('./source/**/*.{scss,sass}', {interval: 250}, ['compile-module-sass']);
-  gulp.watch(['./source/**/*.{scss,sass}', '!./source/components/**/*'], {interval: 250}, ['compile-global-sass']);
+  gulp.watch('./source/**/*.{scss,sass}', {interval: 250}, ['compile-module-sass']).on('change', browserSync.reload);
+  gulp.watch(['./source/**/*.{scss,sass}', '!./source/components/**/*'], {interval: 250}, ['compile-global-sass']).on('change', browserSync.reload);
   gulp.watch('./source/components/**/*.js', {interval: 250}, ['compile-module-javascript']);
   gulp.watch(['./source/**/*.js', '!./source/components/**/*'], {interval: 250}, ['compile-global-javascript']);
-  gulp.watch(['./source/images/**/*'], {interval: 250}, ['copy-images']);
+  gulp.watch(['./source/images/**/*'], {interval: 250}, ['copy-images']).on('change', browserSync.reload);
   gulp.watch(['./source/files/**/*'], {interval: 250}, ['copy-files']);
   gulp.watch(['./source/libs/**/*.js'], {interval: 250}, ['copy-libs']);
   gulp.watch(['./source/icons/*.svg'], {interval: 250}, ['compile-icons']);

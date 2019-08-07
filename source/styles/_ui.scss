@@ -204,6 +204,19 @@
   
   }
 
+  .ui-border-right{
+    border-right: 1px solid #D8D8D8;
+  }
+  .ui-border-top{
+    border-top: 1px solid #D8D8D8;
+  }
+  .ui-piggy{
+    max-width: 529px;
+    max-height: 172px;
+    margin-top: 30px;
+    padding-right: 15px;
+  }
+
   .ui-img-fit{
     width: 100%;
     height: auto;
@@ -211,8 +224,88 @@
   
   .ui-large-text {
     font-size: 20px;
+    font-family: Gotham;
+    font-weight: 100;
+    padding-right: 15px;
   }
-  
+
+  .ui-width-constraint{
+    max-width: 529px;
+    padding-right: 15px;
+    margin-top: 30px;
+  }
+  .ui-title-contraint{
+    max-width: 405px;
+  }
+  .ui-margin-bottom-35{
+    margin-bottom: 55px;
+  }
+  .ui-quote{
+    font-weight: 600;
+    font-style: italic;
+  }
+  .ui-orangeTitle{
+    font-size: 20px;
+    color: #E1714A;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  .ui-gray-padding{
+    background-color: #F2F2F2;
+    padding: 67px 117px 57px;
+    @include responsive(md){
+      padding: 0;
+    }
+  }
+  .ui-margin-top-35{
+    margin-top: 35px !important;
+  }
+  .ui-margin-top-25{
+    margin-top: 25px !important;
+  }
+  .ui-gray{
+    background-color: #F2F2F2;
+    padding: 0px 26px 55px 30px;
+  }
+  .ui-no-padding{
+    padding: 0 !important;
+  }
+  .ui-margin-offset-large{
+    margin-top: 75px !important;
+  }
+  .ui-margin-top10px{
+    margin-top: 10px !important;
+  }
+  .ui-padding-right33{
+    padding-right: 33px;
+    max-width: unset !important;
+  }
+  .ui-medium-text{
+    font-size: 20px;
+  }
+  .ui-noMaxWidth{
+    max-width: unset;
+  }
+  .ui-padding-right-55{
+    padding-right: 55px;
+  }
+  .ui-graph{
+    max-height:200px;
+  }
+
+  .ui-margin-offset{
+    margin-top: 15px;
+    padding-right: 20px;
+  }
+  .ui-max-width1200{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ui-gotham{
+    font-family: Gotham;
+  }
   .ui-small-text {
     font-size: 14px;
   }

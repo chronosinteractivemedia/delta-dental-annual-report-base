@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="455px" height="236px" viewBox="0 0 455 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-852.000000, -1777.000000)">
+            <g id="Going-the-Extra-Mile" transform="translate(0.000000, 1504.000000)">
+                <g id="Group-12" transform="translate(117.472727, 51.000000)">
+                    <g id="Group-6" transform="translate(725.527273, 0.000000)">
+                        <g id="Group-15" transform="translate(9.000000, 222.000000)">
+                            <g id="Pie-Chart">
+                                <g id="Pie-pieces" transform="translate(117.500000, 118.000000) rotate(-90.000000) translate(-117.500000, -118.000000) translate(-0.500000, 0.500000)" stroke-width="5">
+                                    <path d="M115.407428,117.669018 L115.407428,2.52652979 C60.4101508,3.69829161 13.8661177,43.4438468 4.27323295,97.8505351 C-6.64827159,159.786688 34.0220641,218.886451 95.4136189,231.062471 L115.407428,117.669018 Z" id="Fill-1" stroke="#5A487A" fill="#6F5A95"></path>
+                                    <path d="M119.330346,118.681704 L99.6366035,230.373382 C108.550137,231.793571 115.916844,232.084777 125.256548,231.431259 C187.994869,227.044498 235.500324,173.284435 232.462601,110.770766 L119.330346,118.681704 Z" id="Fill-4" stroke="#5FA050" fill="#5FBC4A"></path>
+                                    <path d="M120.407428,115.206813 L232.814495,107.346579 C227.463205,48.369481 179.614176,3.74980177 120.407433,2.52573173 L120.407428,115.206813 Z" id="Fill-7" stroke="#1F92A2" fill="#26BACF"></path>
+                                </g>
+                                <text id="47%-31-Urban" font-family="Gotham-Medium, Gotham" font-size="24" font-weight="400" fill="#FFFFFF">
+                                    <tspan x="92.728" y="150">47%</tspan>
+                                    <tspan x="143.272" y="150" font-family="Gotham-Book, Gotham" font-size="16" font-weight="300"></tspan>
+                                    <tspan x="83.648" y="150.0001" font-family="Gotham-Book, Gotham" font-size="16" font-weight="300">31 Urban</tspan>
+                                </text>
+                                <text id="29%-19-Rural" font-family="Gotham-Medium, Gotham" font-size="24" font-weight="400" fill="#FFFFFF">
+                                    <tspan x="144.084" y="55">29%</tspan>
+                                    <tspan x="194.916" y="55" font-family="Gotham-Book, Gotham" font-size="16" font-weight="300"></tspan>
+                                    <tspan x="138.572" y="55.0001" font-family="Gotham-Book, Gotham" font-size="16" font-weight="300">19 Rural</tspan>
+                                </text>
+                                <text id="24%-16-Rural-&amp;-Urban" font-family="Gotham-Medium, Gotham" font-size="24" font-weight="400" fill="#FFFFFF">
+                                    <tspan x="38.024" y="37">24%</tspan>
+                                    <tspan x="88.976" y="37" font-family="Gotham-Book, Gotham" font-size="16" font-weight="300"></tspan>
+                                    <tspan x="32.572" y="37.0001" font-family="Gotham-Book, Gotham" font-size="16" font-weight="300">16 Rural</tspan>
+                                    <tspan x="31.348" y="37.0002" font-family="Gotham-Book, Gotham" font-size="16" font-weight="300">&amp; Urban</tspan>
+                                </text>
+                            </g>
+                            <text id="66-Active-Grants-in" font-family="Gotham-Medium, Gotham" font-size="22" font-weight="400" line-spacing="28" fill="#5FBC4A">
+                                <tspan x="271" y="99">66 Active Grants</tspan>
+                                <tspan x="271" y="127">in 2018</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

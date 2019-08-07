@@ -33,7 +33,7 @@
   position: absolute;
   background-color: $green;
   width: 520px;
-  padding:40px 60px 40px 80px;
+  padding: 40px 30px 40px 60px;
   z-index:10;
   .hero--green &{background-color: $green;}
   .hero--blue &{background-color: $blue;}
@@ -46,7 +46,7 @@
     height: 60px;
     fill:$white;
     position: absolute;
-    left: 80px;
+    left: 60px;
     top: 40px;
   }
   h2{
