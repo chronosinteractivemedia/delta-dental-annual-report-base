@@ -11,6 +11,9 @@
   @include responsive(md){
     padding: 0 $edge-padding;
   }
+  @media (max-width: 768px) {
+    padding: 0 40px;
+  }
 }
 
 .ui-row{
@@ -274,7 +277,7 @@
   .ui-gray-padding{
     background-color: #F2F2F2;
     padding: 67px 117px 57px;
-    @include responsive(md){
+    @media (max-width: 768px) {
       padding: 0;
     }
   }
@@ -334,7 +337,14 @@
   }
   .ui-max-width1200{
     padding: 0 40px;
-    
+    @media (max-width:768px) {
+      padding: 0;
+    } 
+  }
+  .ui-small-padding{
+    @media (max-width:768px) {
+      padding: 0 40px;
+    } 
   }
   .ui-padding-0-small{
     @include responsive(sm){
