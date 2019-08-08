@@ -240,6 +240,27 @@
   .ui-margin-bottom-35{
     margin-bottom: 55px;
   }
+  .ui-padding-3040{
+    padding-left: 30px;
+    padding-right: 40px; 
+  }
+  .ui-margin-bottom35{
+    margin-bottom: 35px;
+  }
+  .ui-media{
+    font-size: 36px;
+    font-family: Gotham;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .ui-orange-header{
+    background-color: #E1714A;
+    padding-top: 23px;
+  }
+  .ui-media-link{
+    float: right !important;
+    padding-top: 8px;
+  }
   .ui-quote{
     font-weight: 600;
     font-style: italic;
@@ -267,6 +288,9 @@
     background-color: #F2F2F2;
     padding: 0px 26px 55px 30px;
   }
+  .ui-gray-pure{
+    background-color: #F2F2F2;
+  }
   .ui-no-padding{
     padding: 0 !important;
   }
@@ -292,16 +316,24 @@
   .ui-graph{
     max-height:200px;
   }
-
+  .ul-styling{
+    list-style-image: url("/images/listImage.svg");
+    padding-left: 60px;
+    li{
+      margin-bottom: 26px;
+    }
+  }
+  .ui-highlights-header{
+    color: #26BACF;
+    font-size: 24px;
+    padding-left: 30px;
+  }
   .ui-margin-offset{
     margin-top: 15px;
     padding-right: 20px;
   }
   .ui-max-width1200{
-    max-width: 1240px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    padding: 0 40px;
   }
   .ui-gotham{
     font-family: Gotham;
