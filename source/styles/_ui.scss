@@ -334,6 +334,12 @@
   }
   .ui-max-width1200{
     padding: 0 40px;
+    
+  }
+  .ui-padding-0-small{
+    @include responsive(sm){
+      padding: 0;
+    }
   }
   .ui-gotham{
     font-family: Gotham;
