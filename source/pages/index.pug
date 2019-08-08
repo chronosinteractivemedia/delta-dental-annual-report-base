@@ -70,7 +70,12 @@ block display
         p.ui-width-constraint.ui-gotham.ui-margin-top10px.ui-no-padding Over the past 14 years, more than 5,000 medical, pharmacy, nursing and other health profession students, residents and practitioners have participated in interprofessional training opportunities through the University of Colorado School of Dental Medicine’s <a href="http://www.ucdenver.edu/academics/colleges/dentalmedicine/CommunityService/Pages/Frontier-Center.aspx" target="_blank" class="ui-text-blue">Frontier Center 4 Health</a>.
 
   #partner
-    +hero('images/hero3.jpg', 'orange', 'handshake', 'Initiatives' )
+
+  .hero(class=`hero--orange`)
+    .hero__bg.ui-second-image-contraint(style=`background-image: url('images/hero3.jpg')`)
+    .hero__title
+      +icon(handshake)
+      h2 Initiatives
 
   .ui-container
     .ui-row.ui-margin-bottom-35

@@ -335,6 +335,11 @@
     margin-top: 15px;
     padding-right: 20px;
   }
+  .ui-second-image-contraint{
+    @media (max-width:375px) {
+      height: 320px !important;
+    } 
+  }
   .ui-max-width1200{
     padding: 0 40px;
     @media (max-width:768px) {
