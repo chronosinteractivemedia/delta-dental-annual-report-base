@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="455px" height="236px" viewBox="0 0 455 236" enable-background="new 0 0 455 236" xml:space="preserve">
+<g id="Pie-Chart">
+	<g id="Pie-pieces" transform="translate(118.000000, 118.000000) rotate(-90.000000) translate(-118.000000, -118.000000) ">
+		<path id="Fill-1" fill="#6F5A95" stroke="#5A487A" stroke-width="5" d="M115.407,117.669V2.526
+			C60.41,3.698,13.866,43.444,4.273,97.851c-10.922,61.936,29.748,121.036,91.141,133.212L115.407,117.669z"/>
+		<path id="Fill-4" fill="#5FBC4A" stroke="#5FA050" stroke-width="5" d="M120.03,120.246l-19.694,111.692
+			c8.914,1.42,16.281,1.711,25.621,1.058c62.738-4.387,110.244-58.147,107.206-120.661L120.03,120.246z"/>
+		<path id="Fill-7" fill="#26BACF" stroke="#1F92A2" stroke-width="5" d="M120.407,115.207l112.407-7.86
+			C227.463,48.37,179.614,3.75,120.407,2.526V115.207z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 92.728 172)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="24">47%</text>
+	<text transform="matrix(1 0 0 1 143.272 172)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="24"> </text>
+	<text transform="matrix(1 0 0 1 83.6479 199)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="16">31 Urban</text>
+	<text transform="matrix(1 0 0 1 144.084 77)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="24">29%</text>
+	<text transform="matrix(1 0 0 1 194.9155 77)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="24"> </text>
+	<text transform="matrix(1 0 0 1 138.5718 104)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="16">19 Rural</text>
+	<text transform="matrix(1 0 0 1 38.0239 59)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="24">24%</text>
+	<text transform="matrix(1 0 0 1 88.9761 59)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="24"> </text>
+	<text transform="matrix(1 0 0 1 32.5718 86)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="16">16 Rural</text>
+	<text transform="matrix(1 0 0 1 94.4268 86)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="24"> </text>
+	<text transform="matrix(1 0 0 1 31.3481 104)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="16">&amp; Urban</text>
+</g>
+<text transform="matrix(1 0 0 1 271 119)" fill="#5FBC4A" font-family="'Gotham-Medium'" font-size="22">66 Active Grants</text>
+<text transform="matrix(1 0 0 1 455.8418 119)" fill="#5FBC4A" font-family="'Gotham-Medium'" font-size="22"> </text>
+<text transform="matrix(1 0 0 1 271 147)" fill="#5FBC4A" font-family="'Gotham-Medium'" font-size="22">in 2018</text>
+</svg>
